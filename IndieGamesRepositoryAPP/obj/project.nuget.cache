@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RRDoeQ+XNmfIo8ofml4fLI0tjaqdV07irTBmqZJyO/VGRBwnWwoDL/rL4+oQbegUAzUVIul6TrgsD99QjtK1Ww==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\biocr\\RiderProjects\\IndieGamesRepositoryAPP\\IndieGamesRepositoryAPP\\IndieGamesRepositoryAPP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\biocr\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.15\\microsoft.netcore.app.host.win-x64.3.1.15.nupkg.sha512"
+  ],
+  "logs": []
+}

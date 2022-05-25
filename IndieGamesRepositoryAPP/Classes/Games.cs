@@ -27,7 +27,8 @@ namespace IndieGamesRepositoryAPP.Classes
             output += "Genre: " + this.Genre + Environment.NewLine;
             output += "Title: " + this.Title + Environment.NewLine;
             output += "Summary: " + this.Summary + Environment.NewLine;
-            output += "Release date: " + this.ReleaseData + Environment.NewLine;
+            output += "Release year: " + this.ReleaseData + Environment.NewLine;
+            output += "Deleted: " + this.IsDeleted;
 
             return output;
         }
@@ -40,6 +41,11 @@ namespace IndieGamesRepositoryAPP.Classes
         public int ReturnId()
         {
             return this.Id;
+        }
+
+        public bool ReturnIsDeleted()
+        {
+            return this.IsDeleted;
         }
 
         public void Delete()
